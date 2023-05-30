@@ -1,0 +1,8 @@
+.dark::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle calc(var(--radius)) at var(--pointerX) var(--pointerY),transparent 10%, black 100%);
+}
